@@ -1,0 +1,66 @@
+body{
+    background:lightcoral;
+}
+
+.header{
+    height: 40vh;
+    background-image: url("banner.jpg");
+    background-size: cover;
+} 
+
+.radius{
+    border-radius: 8px;
+}
+.black{
+    color: black;
+}
+
+.white{
+    color: white;
+}
+
+.tomato{
+    background: tomato;
+}
+
+.purple{
+    background: rebeccapurple;
+}
+
+.icon{
+    font-size: 90px;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+    transition-duration: 400ms;
+
+}
+
+.shadow{
+    /*
+    box-shadow: sombraH, sombraV, desenfoque, color
+    */
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.9);
+}
+
+.footer{
+    height: 200px;
+    background:rebeccapurple;
+}
+
+.frase{
+    background: #e8cde4;
+    height: auto;
+}
+
+.frase-texto{
+    color: #2f58a5;
+    font-size: 32px;
+}
+
+textarea{
+    resize: none;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bautista web-dev</title>
+    <link rel="shortcut icon" href="http://onetreeplanted.org/favicon.ico" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cae62a1f18.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-white" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-danger badge-pill"> Registrate</a>
+        </div>
+      </nav>
+    <header class="container-fluid header">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-white p-5">Web Dev</h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row mt-5"  id="about" >
+            <div class="col-xl-4 col-lg-6 col-xs-12 tomato p-3 text-center text-center">
+                <img src="https://i.pinimg.com/originals/81/63/94/816394a06b8c3a129155a4dd182fe79b.jpg" class="img-fluid radius icon" width="200px">
+            </div>
+            <div class="col-xl-8 col-lg-6 col-xs-12 purple p-3 white shadow"  id="#about">
+                <div class="alert">
+                    <h2 class="white">About me</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, consequuntur accusamus quas, quisquam iusto nisi laudantium quam autem officia molestiae at veritatis! Labore aut nihil.</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="container bg-dark black mt-5 radius shadow" id="skills">
+            <h2 class="text-center white" >Skills</h2>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12 mt-3 shadow">
+                <div class="card border-primary mb-3 text-center">
+                    <img class="card img-top icon" src="https://img.flaticon.com/icons/png/512/174/174854.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" height="250px" width="100%">
+                    <div class="card-body">
+                        <h4 class="card-title">HTML</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mt-3 shadow">
+                <div class="card border-primary mb-3 text-center">
+                    <img class="card img-top icon" src="https://www.kindpng.com/picc/m/464-4640184_css3-png-download-css-icon-transparent-png.png" height="250px" width="100%">
+                    <div class="card-body">
+                        <h4 class="card-title">CSS</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mt-3 shadow">
+                <div class="card border-primary mb-3 text-center">
+                    <img class="card img-top icon" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/javascript.png" height="250px" width="100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Javascript</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>    
+            <div class="row">
+        </section>
+    </div>
+
+    <hr>
+        <section id="frase" class="container-fluid frase mt-5 mb-5">
+            <div class="row justify-content-center">
+                <div class="col-6 pt-5 pb-5">
+                    <h3 class="text-center frase-texto">Agarrá la pala</h3>
+                </div>
+            </div>
+        </section>
+    
+        <section class="container"  id="contact">
+            <h2 class="text-center white">Contact</h2>
+            <div class="row mt-5 justify-content-center">
+                <div class="col-xl-6 col-lg-6 col-xs-12 white">
+                    <form method="POST"action="#">
+                        <div class="form-group">
+                            <label for="nc">Nombre Completo <span class="text-danger">*</span> </label>
+                            <input type="text" id="nc" class="form-control" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email <span class="text-danger">*</span></label>
+                            <input type="email" id="email" class="form-control" placeholder="ejemplo@correo.com.ar">
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Comentario</label>
+                            <textarea placeholder="Comentario" id="comment" class="form-control"></textarea>
+                        </div>
+                        <button class="btn btn-primary btn-block">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    
+        <section class="container-fluid p-0">
+            <video src="video/videocars.mp4" width="100%" height="100% autoplay loop controls c"></video>
+        </section>
+
+    <footer class="container-fluid mt-5 footer">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-4 col-md-4 col-12">
+                <address>
+                    <p class="white">25 de Mayo 333</p>
+                </address>
+                <a href="https://www.github.com/bau7i">
+                    <i class="fab fa-github fa-4x text-danger mr-5 icon"></i>
+                </a>
+                <a href="https://instagram.com/lonardibautista"">
+                    <i class="fab fa-instagram fa-4x text-primary icon"></i>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+               <p class="white">Copyright © 1999-2020 ProyectAr </p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71715.41478276697!2d7.6110596805415796!3d46.69864636834257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478fadd623415365%3A0x3d8e3909f94b4d91!2sSpiez%2C%20Suiza!5e1!3m2!1ses-419!2sar!4v1600898044258!5m2!1ses-419!2sar" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
